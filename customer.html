@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Fredoka+One&family=Fruktur&family=Irish+Grover&family=Lobster&family=Nunito+Sans:wght@200&family=Oswald:wght@300;400&family=Pacifico&family=Poppins:wght@100;200&family=Praise&family=Righteous&family=Roboto+Condensed:wght@300&display=swap');
+      </style>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+<body>
+  <header>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light  navo">
+      <div class="container-fluid" id="mynav">
+        <a class="navbar-brand" href="#"><img src="./main.png" alt="" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="uler">
+            <li class="nav-item  lii">
+              <a class="nav-link " aria-current="page" href=".//index.html">Home</a>
+            </li>
+            <!-- <li class="nav-item  lii">
+                <a class="nav-link" href="#"></a>
+              </li> -->
+            <li class="nav-item  lii">
+              <a class="nav-link " href="./services.html">Services</a>
+            </li>
+            <li class="nav-item  lii">
+              <a class="nav-link" href="./contact.html">Contact info</a>
+            </li>
+            <li class="nav-item   lii">
+              <a class="nav-link active" href="./customer.html">Our Customers</a>
+            </li>
+            
+          </ul>
+          <!-- <li class="nav-item   lii">
+            <a class="nav-link" href="./cart.html"><svg class="" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-cart-plus  cart" viewBox="0 0 16 16">
+              <path
+              d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z" />
+              <path
+              d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+            </svg></a> -->
+            <!-- <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit" id="btni">Search</button>
+            </form> -->
+          </div>
+          <!-- <li class="nav-item   lii"> -->
+
+            <!-- <i id="cart-icon"><svg class="" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="currentColor" class="bi bi-cart-plus  cart" viewBox="0 0 16 16">
+                <path
+                  d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z" />
+                <path
+                  d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+              </svg> -->
+            <!-- </i>  -->
+            <i class="bi bi-bag-check" id="cart-icon"></i>
+          </nav>
+          <!-- </li> -->
+          
+          <!-- Cart  -->
+      <div class="carto">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content">
+         
+          </div>
+          <!-- Total  -->
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">Rs0</div>
+          </div>
+      <!-- Buy butn  -->
+      <button type="button" class="btn-buy">Buy Now</button>
+      
+      <!-- cart close/  -->
+      <i id="close-cart" class="bi bi-x-lg"></i>
+    </div>
+  </div>
+  </header>
+
+      <section id="service-second" class="cus-header">
+        <!-- <img src="./images/bathroom-g7683a9a62_640.png" class="img" alt=""> -->
+       
+        <h2>#Read More</h2>
+        <p>You should know about our customers before buying!!</p>
+      </section>
+
+      <section id="blog">
+          <div class="blog-box">
+              <div class="blog-img">
+                <img src="./images/custo1.jpg">
+              </div>
+            <div class="blog-det">
+                <strong><h4>I buy a pack of 12 Bath Towels</h4></strong>
+                <p>The quality of the towel was amazing.It absorbs large amount of water.First of all, it is made up of 100% pure cotton.The size was also good and exact.</p>
+            </div>
+            <h1>20/05</h1>
+
+          </div>
+
+          <div class="blog-box">
+            <div class="blog-img">
+              <img src="./images/custo2.jpg">
+            </div>
+          <div class="blog-det">
+              <strong><h4>I buy two pack of 12 Decorative Towels</h4></strong>
+              <p>The quality of the towel was amazing.It absorbs large amount of water.The textile was Fantastic.First of all, it is made up of 100% pure cotton.The size was also according to my wish</p>
+          </div>
+          <h1>23/05</h1>
+
+        </div>
+
+        <div class="blog-box">
+            <div class="blog-img">
+              <img src="https://image.shutterstock.com/image-photo/male-customer-inspecting-buying-towels-260nw-758350432.jpg">
+            </div>
+          <div class="blog-det">
+              <strong><h4>I buy 20 pack of 12 Small hand-hold Towels</h4></strong>
+              <p>I am a regular customer of towel mart and i always buy a great amount of towels feom here to sell towels in quetta. The quality of the towel was amazing.It is highly absorbable.First of all, it is made up of 100% pure cotton.The size was also good and exact.</p>
+          </div>
+          <h1>25/05</h1>
+
+        </div>
+
+        <div class="blog-box">
+            <div class="blog-img">
+              <img src="./images/custo3.jpg">
+            </div>
+          <div class="blog-det">
+              <strong><h4>I buy 2 large Towels</h4></strong>
+              <p>I bought first time from here for local home use but the quality of the towel was amazing.It absorbs large amount of water.First of all, it is made up of 100% pure cotton.The size was also good and exact.</p>
+          </div>
+          <h1>29/05</h1>
+
+        </div>
+
+      </section>
+
+
+    <footer >
+      <div class="col">
+        <img src="./main.png" alt="" height="80" width= "80" style="border-radius: 50px; margin-bottom: 20px;">
+        <h4>Contact:</h4>
+        <p class="add"><strong>Address: </strong> Boltan Market near Achi qaber,Metha dar,Karachi</p>
+        <p><strong>Hours: </strong>  10:00Am to 9:00Pm </p>
+        <div class="follow">
+          <h5>Follow Us:</h5>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-whatsapp"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+        <div class="copy">
+          <p> ©  2022, Towel Mart- Especiality in Towels | All rights reserved</p> 
+      </div>
+
+     
+      </div>
+    </footer>
+</body>
+<script src="./app.js"></script>
+</html>
